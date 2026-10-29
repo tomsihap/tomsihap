@@ -7,13 +7,14 @@ on:
   push:
     branches: [main]
 
-permissions:
-  contents: write
+permissions: {}
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v5
 
@@ -24,9 +25,13 @@ jobs:
           GITHUB_USER: ${{ github.repository_owner }}
 
       - name: Publish it to the output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+        working-directory: dist
+        run: |
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contributions.svg
+          git commit -q -m "Update contribution graph"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

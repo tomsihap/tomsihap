@@ -34,8 +34,8 @@ LEVEL_FILL = {
 }
 CELL, GAP = 16, 4
 STEP = CELL + GAP
-LEFT, TOP = 72, 122
-WIDTH, HEIGHT = 1200, 310
+LEFT, TOP = 72, 96
+WIDTH, HEIGHT = 1200, 284
 
 
 def fetch_calendar(login, token):
@@ -112,8 +112,7 @@ def render(calendar):
     </style>
   </defs>
   <rect width="{WIDTH}" height="{HEIGHT}" rx="18" fill="url(#bg)"/>
-  <text x="{LEFT}" y="52" class="mono" font-size="14" fill="#f5a524">~/activity</text>
-  <text x="{LEFT}" y="84" class="sans" font-size="26" font-weight="700" fill="#f8fafc">{total} contributions in the last year</text>
+  <text x="{LEFT}" y="58" class="sans" font-size="26" font-weight="700" fill="#f8fafc">{total} contributions in the last year</text>
   {months}
   {"".join(cells)}
   <text x="{legend_x}" y="{TOP + 7 * STEP + 24}" class="mono label">less</text>

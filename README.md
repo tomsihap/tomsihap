@@ -37,7 +37,7 @@ Chess.com does.
 
 ### Contributions
 
-Fixes, documentation and French translations for
+Features, fixes, documentation and French translations for
 [mydumper](https://github.com/mydumper/mydumper) ·
 [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) ·
 [MDN Web Docs (FR)](https://github.com/mdn/translated-content) ·

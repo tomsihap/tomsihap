@@ -8,8 +8,8 @@
   <a href="https://www.malt.fr/profile/thomassihapanya"><img src="https://img.shields.io/badge/malt-open_to_freelance-f5a524?style=for-the-badge&labelColor=0b1020" alt="Malt: open to freelance"></a>
 </p>
 
-Hi, I'm Thomas, a senior engineer based in Lyon, France. I design backend and data systems
-that stay simple to maintain, and I currently work as a Senior Software Engineer at Hozana.
+Hi, I'm Thomas, based in Lyon, France. I design backend and data systems that stay simple
+to maintain, and I currently work as a Senior Engineer at Hozana.
 
 - **Backend** · PHP and Symfony, API design, DDD and hexagonal architecture
 - **Data** · Ingestion, CDC, modelling with dbt, data quality and observability

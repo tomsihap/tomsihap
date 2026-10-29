@@ -35,10 +35,17 @@ prompt-level instructions allow, installed in two commands.
 Shows good, excellent and brilliant moves, plus book moves, in Lichess analysis, the way
 Chess.com does.
 
-### Upstream contributions
+### Contributions
 
-- [mydumper/mydumper#2359](https://github.com/mydumper/mydumper/pull/2359) · merged · Fix config file preprocessing that makes valid files unparsable
-- [NginxProxyManager/nginx-proxy-manager#5358](https://github.com/NginxProxyManager/nginx-proxy-manager/pull/5358) · in review · Host folder grouping for all host types
+Fixes, documentation and French translations for
+[mydumper](https://github.com/mydumper/mydumper) ·
+[MDN Web Docs (FR)](https://github.com/mdn/translated-content) ·
+[PHP manual (FR)](https://github.com/php/doc-fr) ·
+[Homebrew Cask](https://github.com/Homebrew/homebrew-cask) ·
+[CakePHP docs](https://github.com/cakephp/docs) ·
+[Foundry VTT D&D 5e (FR)](https://github.com/adgranger/foundryvtt-dnd5e-lang-fr-fr) ·
+[Foundry VTT community wiki](https://github.com/foundry-vtt-community/wiki.js) ·
+[console-select](https://github.com/eddiriarte/console-select)
 
 ## Toolbox
 
@@ -56,8 +63,4 @@ Chess.com does.
 
 ## Activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomsihap/tomsihap/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tomsihap/tomsihap/output/github-snake.svg">
-  <img alt="My contribution graph, eaten by a snake" src="https://raw.githubusercontent.com/tomsihap/tomsihap/output/github-snake.svg">
-</picture>
+<img src="https://raw.githubusercontent.com/tomsihap/tomsihap/output/contributions.svg" alt="My contributions over the last year" width="100%">

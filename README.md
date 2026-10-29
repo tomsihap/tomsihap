@@ -39,6 +39,7 @@ Chess.com does.
 
 Fixes, documentation and French translations for
 [mydumper](https://github.com/mydumper/mydumper) ·
+[Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) ·
 [MDN Web Docs (FR)](https://github.com/mdn/translated-content) ·
 [PHP manual (FR)](https://github.com/php/doc-fr) ·
 [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) ·

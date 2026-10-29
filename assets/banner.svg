@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">Thomas Sihapanya</title>
+  <desc id="desc">Senior Engineer: backend, data and AI. I design backend and data systems that stay simple to maintain.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#131c38"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#f5a524" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#f5a524" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94a3b8" fill-opacity="0.12"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .sans { font-family: Inter, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .flow { fill: none; stroke: #f5a524; stroke-width: 2; stroke-dasharray: 5 7; animation: flow 1.6s linear infinite; }
+      .rail { fill: none; stroke: #334155; stroke-width: 2; }
+      .node rect { fill: #0f172a; stroke: #475569; stroke-width: 1.5; }
+      .node.hot rect { stroke: #f5a524; }
+      .node text { fill: #e2e8f0; font-size: 15px; text-anchor: middle; }
+      @keyframes flow { to { stroke-dashoffset: -24; } }
+      @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+  </g>
+
+  <!-- Identity -->
+  <text x="72" y="92" class="mono" font-size="16" fill="#f5a524">~/tomsihap</text>
+  <text x="72" y="152" class="sans" font-size="56" font-weight="700" fill="#f8fafc">Thomas Sihapanya</text>
+  <text x="72" y="196" class="sans" font-size="24" fill="#cbd5e1">Senior Engineer · Backend · Data · AI</text>
+  <text x="72" y="236" class="sans" font-size="18" fill="#94a3b8">I design backend and data systems that stay simple to maintain.</text>
+  <text x="72" y="276" class="mono" font-size="14" fill="#64748b">Lyon, France · open to freelance</text>
+
+  <!-- Pipeline motif: sources → transform → serving -->
+  <g>
+    <path class="rail" d="M845 100 C 880 100, 870 160, 905 160"/>
+    <path class="rail" d="M845 220 C 880 220, 870 160, 905 160"/>
+    <path class="rail" d="M995 160 C 1030 160, 1020 100, 1055 100"/>
+    <path class="rail" d="M995 160 C 1030 160, 1020 220, 1055 220"/>
+    <path class="flow" d="M845 100 C 880 100, 870 160, 905 160"/>
+    <path class="flow" d="M845 220 C 880 220, 870 160, 905 160"/>
+    <path class="flow" d="M995 160 C 1030 160, 1020 100, 1055 100"/>
+    <path class="flow" d="M995 160 C 1030 160, 1020 220, 1055 220"/>
+  </g>
+  <g class="mono">
+    <g class="node"><rect x="755" y="82" width="90" height="36" rx="8"/><text x="800" y="105">mysql</text></g>
+    <g class="node"><rect x="755" y="202" width="90" height="36" rx="8"/><text x="800" y="225">events</text></g>
+    <g class="node hot"><rect x="905" y="142" width="90" height="36" rx="8"/><text x="950" y="165">dbt</text></g>
+    <g class="node"><rect x="1055" y="82" width="90" height="36" rx="8"/><text x="1100" y="105">api</text></g>
+    <g class="node"><rect x="1055" y="202" width="90" height="36" rx="8"/><text x="1100" y="225">llm</text></g>
+  </g>
+</svg>

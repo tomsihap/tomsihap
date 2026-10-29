@@ -21,17 +21,17 @@ Open to freelance missions: [get in touch](https://tomsihap.fr/en).
 
 ## Open source
 
-**[mydumper-lint](https://github.com/tomsihap/mydumper-lint)** · Go
+**[mydumper-lint](https://github.com/tomsihap/mydumper-lint)** · Go<br>
 A linter and fixer for mydumper configuration files, with an LSP server for IDE autocompletion.
 A single whitespace-only line makes mydumper ignore its whole config and still exit 0, so
 masking rules are silently skipped. mydumper-lint reproduces GLib's parser to catch that
 before it reaches production. [Docs](https://tomsihap.github.io/mydumper-lint/)
 
-**[fable-skills](https://github.com/tomsihap/fable-skills)** · Claude Code plugin
+**[fable-skills](https://github.com/tomsihap/fable-skills)** · Claude Code plugin<br>
 Ten skills that bring Claude Opus 4.8's behaviour as close to Claude Fable 5's as
 prompt-level instructions allow, installed in two commands.
 
-**[lichess-good-moves](https://github.com/tomsihap/lichess-good-moves)** · JavaScript · ⭐ 13
+**[lichess-good-moves](https://github.com/tomsihap/lichess-good-moves)** · JavaScript · ⭐ 13<br>
 Shows good, excellent and brilliant moves, plus book moves, in Lichess analysis, the way
 Chess.com does.
 
